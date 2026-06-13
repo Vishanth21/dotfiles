@@ -1,0 +1,32 @@
+[aliases.class]
+# The (?i) makes the match case-insensitive
+# .* acts as a wildcard to catch things like "zen-alpha" or "zen-browser"
+"(?i)zen.*" = "Zen"
+"(?i)kitty" = "Kitty"
+"(?i)thunar" = "Thunar"
+"(?i)code" = "Code"
+"(?i)discord" = "Discord"
+"(?i).*jdownloader.*" = "JDownloader"
+"(?i).*java-lang-thread.*" = "JDownloader"
+"(?i).*vivaldi.*" = "Vivaldi"
+"(?i).*zed.*" = "Zed"
+"(?i).*ghidra.*" = "ghidra"
+"Spotube" = "music"
+
+[icons]
+Zen = "󰈹"       
+Kitty = " "    
+Thunar = "󰉋"   
+Code = "󰨞"     
+Discord = ""  
+music = ""     
+
+
+[general]
+# A fallback icon for when an app isn't explicitly defined above
+# default_icon = "" 
+
+[options]
+# Set to true if you ONLY want the icon to show up, not the window name text
+no_names = false
+no_icon_names = true
